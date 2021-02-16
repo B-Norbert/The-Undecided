@@ -1,14 +1,13 @@
 -- phpMyAdmin SQL Dump
--- version 5.0.4
--- https://www.phpmyadmin.net/
+-- version 4.5.1
+-- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Feb 15, 2021 at 06:09 PM
--- Server version: 10.4.17-MariaDB
--- PHP Version: 8.0.1
+-- Czas generowania: 16 Lut 2021, 14:07
+-- Wersja serwera: 10.1.13-MariaDB
+-- Wersja PHP: 7.0.8
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
-START TRANSACTION;
 SET time_zone = "+00:00";
 
 
@@ -18,13 +17,39 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `g4u`
+-- Baza danych: `g4u`
 --
 
 -- --------------------------------------------------------
 
 --
--- Table structure for table `bitmore`
+-- Struktura tabeli dla tabeli `accounts`
+--
+
+CREATE TABLE `accounts` (
+  `id` int(11) NOT NULL,
+  `email` varchar(100) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
+  `first_name` varchar(100) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
+  `last_name` varchar(100) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
+  `username` varchar(15) NOT NULL,
+  `password` text CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
+  `created` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  `user_level` int(11) NOT NULL DEFAULT '0'
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Zrzut danych tabeli `accounts`
+--
+
+INSERT INTO `accounts` (`id`, `email`, `first_name`, `last_name`, `username`, `password`, `created`, `user_level`) VALUES
+(1, 'test1@gmail.com', 'test1', 'test1', 'test1', 'test1', '2020-11-10 11:18:17', 0),
+(2, 'test3@gmail.com', 'test2', 'test2', 'test2', 'test2', '2020-11-04 15:35:39', 1),
+(3, 'test2@gmail.com', 'test3', 'test3', 'test3', 'test3', '2020-11-30 13:58:26', 2);
+
+-- --------------------------------------------------------
+
+--
+-- Struktura tabeli dla tabeli `bitmore`
 --
 
 CREATE TABLE `bitmore` (
@@ -38,7 +63,7 @@ CREATE TABLE `bitmore` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
--- Dumping data for table `bitmore`
+-- Zrzut danych tabeli `bitmore`
 --
 
 INSERT INTO `bitmore` (`ID`, `Address`, `supplierID`, `Products`, `ProductPrice`, `DeliveryDate`, `ProductAvailability`) VALUES
@@ -49,7 +74,7 @@ INSERT INTO `bitmore` (`ID`, `Address`, `supplierID`, `Products`, `ProductPrice`
 -- --------------------------------------------------------
 
 --
--- Table structure for table `brainstorm ltd`
+-- Struktura tabeli dla tabeli `brainstorm ltd`
 --
 
 CREATE TABLE `brainstorm ltd` (
@@ -63,7 +88,7 @@ CREATE TABLE `brainstorm ltd` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
--- Dumping data for table `brainstorm ltd`
+-- Zrzut danych tabeli `brainstorm ltd`
 --
 
 INSERT INTO `brainstorm ltd` (`ID`, `Address`, `supplierID`, `Products`, `ProductPrice`, `DeliveryDate`, `ProductAvailability`) VALUES
@@ -74,7 +99,7 @@ INSERT INTO `brainstorm ltd` (`ID`, `Address`, `supplierID`, `Products`, `Produc
 -- --------------------------------------------------------
 
 --
--- Table structure for table `completedsales`
+-- Struktura tabeli dla tabeli `completedsales`
 --
 
 CREATE TABLE `completedsales` (
@@ -84,7 +109,7 @@ CREATE TABLE `completedsales` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
--- Dumping data for table `completedsales`
+-- Zrzut danych tabeli `completedsales`
 --
 
 INSERT INTO `completedsales` (`SaleID`, `Salecompletion`, `signedoffby`) VALUES
@@ -95,7 +120,7 @@ INSERT INTO `completedsales` (`SaleID`, `Salecompletion`, `signedoffby`) VALUES
 -- --------------------------------------------------------
 
 --
--- Table structure for table `cottagetoys`
+-- Struktura tabeli dla tabeli `cottagetoys`
 --
 
 CREATE TABLE `cottagetoys` (
@@ -111,7 +136,7 @@ CREATE TABLE `cottagetoys` (
 -- --------------------------------------------------------
 
 --
--- Table structure for table `employeetable`
+-- Struktura tabeli dla tabeli `employeetable`
 --
 
 CREATE TABLE `employeetable` (
@@ -122,7 +147,7 @@ CREATE TABLE `employeetable` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
--- Dumping data for table `employeetable`
+-- Zrzut danych tabeli `employeetable`
 --
 
 INSERT INTO `employeetable` (`EmployeeID`, `EmployeeName`, `Department`, `Title`) VALUES
@@ -134,7 +159,7 @@ INSERT INTO `employeetable` (`EmployeeID`, `EmployeeName`, `Department`, `Title`
 -- --------------------------------------------------------
 
 --
--- Table structure for table `login`
+-- Struktura tabeli dla tabeli `login`
 --
 
 CREATE TABLE `login` (
@@ -145,7 +170,7 @@ CREATE TABLE `login` (
 -- --------------------------------------------------------
 
 --
--- Table structure for table `order authorization`
+-- Struktura tabeli dla tabeli `order authorization`
 --
 
 CREATE TABLE `order authorization` (
@@ -156,7 +181,7 @@ CREATE TABLE `order authorization` (
 -- --------------------------------------------------------
 
 --
--- Table structure for table `orderstates`
+-- Struktura tabeli dla tabeli `orderstates`
 --
 
 CREATE TABLE `orderstates` (
@@ -171,7 +196,7 @@ CREATE TABLE `orderstates` (
 -- --------------------------------------------------------
 
 --
--- Table structure for table `products`
+-- Struktura tabeli dla tabeli `products`
 --
 
 CREATE TABLE `products` (
@@ -186,7 +211,7 @@ CREATE TABLE `products` (
 -- --------------------------------------------------------
 
 --
--- Table structure for table `shenzhenhousing`
+-- Struktura tabeli dla tabeli `shenzhenhousing`
 --
 
 CREATE TABLE `shenzhenhousing` (
@@ -200,8 +225,14 @@ CREATE TABLE `shenzhenhousing` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
--- Indexes for dumped tables
+-- Indeksy dla zrzutów tabel
 --
+
+--
+-- Indexes for table `accounts`
+--
+ALTER TABLE `accounts`
+  ADD PRIMARY KEY (`id`);
 
 --
 -- Indexes for table `bitmore`
@@ -256,36 +287,35 @@ ALTER TABLE `shenzhenhousing`
 --
 
 --
--- AUTO_INCREMENT for table `bitmore`
+-- AUTO_INCREMENT dla tabeli `accounts`
+--
+ALTER TABLE `accounts`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+--
+-- AUTO_INCREMENT dla tabeli `bitmore`
 --
 ALTER TABLE `bitmore`
   MODIFY `ID` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
-
 --
--- AUTO_INCREMENT for table `brainstorm ltd`
+-- AUTO_INCREMENT dla tabeli `brainstorm ltd`
 --
 ALTER TABLE `brainstorm ltd`
   MODIFY `ID` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
-
 --
--- AUTO_INCREMENT for table `completedsales`
+-- AUTO_INCREMENT dla tabeli `completedsales`
 --
 ALTER TABLE `completedsales`
   MODIFY `SaleID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
-
 --
--- AUTO_INCREMENT for table `cottagetoys`
+-- AUTO_INCREMENT dla tabeli `cottagetoys`
 --
 ALTER TABLE `cottagetoys`
   MODIFY `ID` int(10) NOT NULL AUTO_INCREMENT;
-
 --
--- AUTO_INCREMENT for table `shenzhenhousing`
+-- AUTO_INCREMENT dla tabeli `shenzhenhousing`
 --
 ALTER TABLE `shenzhenhousing`
   MODIFY `ID` int(10) NOT NULL AUTO_INCREMENT;
-COMMIT;
-
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
