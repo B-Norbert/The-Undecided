@@ -1,22 +1,23 @@
-<?php include("data/db.php");?>
-<?php
+<?php 
+  include 'data/db.php';
+
+  include 'navbar.php';
+
+	if(!isset($_SESSION['user_login']))	//check unauthorize user not access in "welcome.php" page
+	{
+		header("location: ./login.php");
+  }
+  
 ?>
-<?php include("navbar.php");?>
+<body>
 <div class='footer-container'>
         <div class='footer-links'>
           <div class='footer-link-wrapper'>
             <div class='footer-link-items'>
-              <h2>Helpful Quicklines</h2>
-              <a href='https://www.confused.com/'>Insurance</a>
-              <a href='../../search.php'>Search</a>
-              <a href='../../contact.php'>Contact</a>
-            </div>
-            <div class='footer-link-items'>
-              <h2 size="14px" color="#ffc107">Connect with us</h2>
-              <a href='/'>Instagram</a>
-              <a href='/'>Facebook</a>
-              <a href='/'>Youtube</a>
-              <a href='/'>Twitter</a>
+              <h2>Temp(h2)</h2>
+              <a href='#'>Category 1</a>
+              <a href='#'>Category 2</a>
+              <a href='#'>Category 3</a>
             </div>
           </div>
         </div>
@@ -27,48 +28,6 @@
   (Company to edit). All rights reserved.
   
   </small>
-            <div class='social-icons'>
-              <a
-                class='social-icon-link facebook'
-                href='/'
-                target='_blank'
-                aria-label='Facebook'
-              >
-                <i class='fab fa-facebook-f' />
-              </a>
-              <a
-                class='social-icon-link instagram'
-                href='/'
-                target='_blank'
-                aria-label='Instagram'
-              >
-                <i class='fab fa-instagram' />
-              </a>
-              <a
-                class='social-icon-link youtube'
-                href='/'
-                target='_blank'
-                aria-label='Youtube'
-              >
-                <i class='fab fa-youtube' />
-              </a>
-              <a
-                class='social-icon-link twitter'
-                href='/'
-                target='_blank'
-                aria-label='Twitter'
-              >
-                <i class='fab fa-twitter' />
-              </a>
-              <a
-                class='social-icon-link twitter'
-                href='/'
-                target='_blank'
-                aria-label='LinkedIn'
-              >
-                <i class='fab fa-linkedin' />
-              </a>
-            </div>
           </div>
         </section>
       </div>
