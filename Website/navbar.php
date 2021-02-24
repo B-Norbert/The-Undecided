@@ -28,7 +28,7 @@ $row=$select_stmt->fetch(PDO::FETCH_ASSOC);
 				?>
 				<?php	
 						echo "<a href='../../index.php'>Home </a>";
-						echo "<a href='../login.php'>" .$row['username']."</a>";
+						echo "<a href='#'>" .$row['username']."</a>";
 						echo "<a href='../logout.php'> Logout</a>";
 				}
 				?>
