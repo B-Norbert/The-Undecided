@@ -19,7 +19,7 @@
             <div class='footer-link-items'>
               <h2 class='menu_h2'>Menu</h2>
               <div class='menu'>
-                <a class='menu_box' href='#'>Category 1</a>
+                <a class='menu_box' href='./products.php'>Category 1</a>
                 <a class='menu_box' href='#'>Category 2</a>
                 <a class='menu_box' href='#'>Category 3</a>
               </div>

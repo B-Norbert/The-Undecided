@@ -14,6 +14,7 @@ $row=$select_stmt->fetch(PDO::FETCH_ASSOC);
 ?>
 <head>
 	<title>G4U</title>
+	<link rel="stylesheet" href="style/style.css">
 </head>
 <body>
 	<div class="nav">
