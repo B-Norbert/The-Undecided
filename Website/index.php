@@ -20,14 +20,15 @@
               <h2 class='menu_h2'>Menu</h2>
               <div class='menu'>
                 <a class='menu_box' href='./products.php'>Category 1</a>
-                <a class='menu_box' href='#'>Category 2</a>
+                <a class='menu_box' href='./register.php'>Category 2</a>
                 <a class='menu_box' href='#'>Category 3</a>
               </div>
             </div>
           </div>
         </div>
       <div class='footer'>
-      (Company to edit). All rights reserved.
+      G4U
+      &copy; <?php echo date("Y"); ?>
       </div>
     </div>
 </body>

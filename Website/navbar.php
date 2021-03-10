@@ -1,7 +1,7 @@
 <?php
-	include('./data/db.php');
+	include './data/db.php';
 	session_start();
-
+	
 if(isset($_SESSION['user_login']))
 {
 $id = $_SESSION['user_login'];
@@ -30,6 +30,7 @@ $row=$select_stmt->fetch(PDO::FETCH_ASSOC);
 				<?php	
 						echo "<a href='../../index.php'>Home </a>";
 						echo "<a href='#'>" .$row['username']."</a>";
+						echo "<a href='#'>" .$row['user_level']."</a>";
 						echo "<a href='../logout.php'> Logout</a>";
 				}
 				?>

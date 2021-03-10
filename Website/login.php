@@ -6,7 +6,7 @@ include 'navbar.php';
 
 if(isset($_SESSION["user_login"]))	//check condition user login not direct back to index.php page
 {
-	header("location: welcome.php");
+	header("location: index.php");
 }
 
 if(isset($_REQUEST['btn_login']))	//button name is "btn_login" 
@@ -32,7 +32,7 @@ if(isset($_REQUEST['btn_login']))	//button name is "btn_login"
 			{
 				if($username==$row["username"]) //check condition user taypable "username or email" are both match from database "username or email" after continue
 				{
-					if($password == $row["password"]) //check condition user taypable "password" are match from database "password" using password_verify() after continue
+					if(password_verify($password, $row["password"])) //check condition user taypable "password" are match from database "password" using password_verify() after continue
 					{
 						$_SESSION["user_login"] = $row["id"];	//session name is "user_login"
 						$loginMsg = "Successfully Login...";		//user login success message

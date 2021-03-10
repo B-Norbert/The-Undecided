@@ -1,7 +1,7 @@
 <?php
 
-include("./data/db.php");
-include("./navbar.php");
+include './data/db.php';
+include './navbar.php';
 
 if(!isset($_SESSION['user_login']))	//check unauthorize user not access in "welcome.php" page
 {
