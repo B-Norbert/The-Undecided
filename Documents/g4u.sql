@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Czas generowania: 03 Mar 2021, 16:35
+-- Czas generowania: 10 Mar 2021, 11:08
 -- Wersja serwera: 10.1.13-MariaDB
 -- Wersja PHP: 7.0.8
 
@@ -42,9 +42,10 @@ CREATE TABLE `accounts` (
 --
 
 INSERT INTO `accounts` (`id`, `email`, `first_name`, `last_name`, `username`, `password`, `created`, `user_level`) VALUES
-(1, 'test1@g4u.com', 'test1', 'test1', 'test1', 'test1', '2020-11-10 11:18:17', 0),
-(2, 'test3@g4u.com', 'test2', 'test2', 'test2', 'test2', '2020-11-04 15:35:39', 1),
-(3, 'test2@g4u.com', 'test3', 'test3', 'test3', 'test3', '2020-11-30 13:58:26', 2);
+(1, 'test1@g4u.com', 'test1', 'test1', 'test1', '$2y$10$7bRLHJQWH2bqzWDvtSMUdunn2oi1hE08xcwC.E9OhVEJKxfg8utH6', '2020-11-10 11:18:17', 0),
+(2, 'test3@g4u.com', 'test2', 'test2', 'test2', '$2y$10$7bRLHJQWH2bqzWDvtSMUdunn2oi1hE08xcwC.E9OhVEJKxfg8utH6', '2020-11-04 15:35:39', 1),
+(3, 'test2@g4u.com', 'test3', 'test3', 'test3', '$2y$10$7bRLHJQWH2bqzWDvtSMUdunn2oi1hE08xcwC.E9OhVEJKxfg8utH6', '2020-11-30 13:58:26', 2),
+(4, 'Adrian.H.A@g4u.com', '', '', 'HID001', '$2y$10$7bRLHJQWH2bqzWDvtSMUdunn2oi1hE08xcwC.E9OhVEJKxfg8utH6', '2021-03-08 16:08:03', 0);
 
 -- --------------------------------------------------------
 
@@ -205,21 +206,22 @@ CREATE TABLE `products` (
   `ProductPrice` decimal(10,0) NOT NULL,
   `ProductQuantity` int(100) NOT NULL,
   `SupplierID` varchar(11) NOT NULL,
-  `ProductImage` varchar(50) NOT NULL
+  `ProductImage` varchar(50) NOT NULL,
+  `available` enum('0','1') CHARACTER SET utf8 NOT NULL COMMENT '0-available,1-unavailable'
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
 -- Zrzut danych tabeli `products`
 --
 
-INSERT INTO `products` (`ID`, `ProductName`, `ProductPrice`, `ProductQuantity`, `SupplierID`, `ProductImage`) VALUES
-(1, 'USB Power Bank 10000mAh', '995', 10, 'BI, BS', 'productimg1.jpg'),
-(2, 'USB Power Bank 20000mAh', '1899', 10, 'BI, BS', 'productimg2.jpg'),
-(3, 'USB Power Bank 25800mAh', '1999', 10, 'BI, BS', 'productimg3.jpg'),
-(5, 'Spider Catcher', '199', 10, 'SH, BS ', 'productimg4.jpg'),
-(6, 'Portable Personal Fan', '565', 10, 'BI, SH', 'productimg5.jpg'),
-(9, 'Star Wars USB Cup Warmer BB-8', '1099', 10, 'BS, BI, SH', 'productimg6.jpg'),
-(10, 'Polaroid Play 3D Pen', '2859', 10, 'SH, BS', 'productimg7.jpg');
+INSERT INTO `products` (`ID`, `ProductName`, `ProductPrice`, `ProductQuantity`, `SupplierID`, `ProductImage`, `available`) VALUES
+(1, 'USB Power Bank 10000mAh', '995', 10, 'BI, BS', 'productimg1.jpg', '0'),
+(2, 'USB Power Bank 20000mAh', '1899', 10, 'BI, BS', 'productimg2.jpg', '0'),
+(3, 'USB Power Bank 25800mAh', '1999', 10, 'BI, BS', 'productimg3.jpg', '0'),
+(5, 'Spider Catcher', '199', 10, 'SH, BS ', 'productimg4.jpg', '0'),
+(6, 'Portable Personal Fan', '565', 10, 'BI, SH', 'productimg5.jpg', '0'),
+(9, 'Star Wars USB Cup Warmer BB-8', '1099', 10, 'BS, BI, SH', 'productimg6.jpg', '0'),
+(10, 'Polaroid Play 3D Pen', '2859', 10, 'SH, BS', 'productimg7.jpg', '0');
 
 -- --------------------------------------------------------
 
@@ -303,7 +305,7 @@ ALTER TABLE `shenzhenhousing`
 -- AUTO_INCREMENT dla tabeli `accounts`
 --
 ALTER TABLE `accounts`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 --
 -- AUTO_INCREMENT dla tabeli `bitmore`
 --
