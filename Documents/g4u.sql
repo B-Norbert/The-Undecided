@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Czas generowania: 10 Mar 2021, 11:08
+-- Czas generowania: 14 Kwi 2021, 10:29
 -- Wersja serwera: 10.1.13-MariaDB
 -- Wersja PHP: 7.0.8
 
@@ -34,18 +34,24 @@ CREATE TABLE `accounts` (
   `username` varchar(15) NOT NULL,
   `password` text CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
   `created` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
-  `user_level` int(11) NOT NULL DEFAULT '0'
+  `user_level` int(11) NOT NULL DEFAULT '0',
+  `appointment` varchar(100) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
 -- Zrzut danych tabeli `accounts`
 --
 
-INSERT INTO `accounts` (`id`, `email`, `first_name`, `last_name`, `username`, `password`, `created`, `user_level`) VALUES
-(1, 'test1@g4u.com', 'test1', 'test1', 'test1', '$2y$10$7bRLHJQWH2bqzWDvtSMUdunn2oi1hE08xcwC.E9OhVEJKxfg8utH6', '2020-11-10 11:18:17', 0),
-(2, 'test3@g4u.com', 'test2', 'test2', 'test2', '$2y$10$7bRLHJQWH2bqzWDvtSMUdunn2oi1hE08xcwC.E9OhVEJKxfg8utH6', '2020-11-04 15:35:39', 1),
-(3, 'test2@g4u.com', 'test3', 'test3', 'test3', '$2y$10$7bRLHJQWH2bqzWDvtSMUdunn2oi1hE08xcwC.E9OhVEJKxfg8utH6', '2020-11-30 13:58:26', 2),
-(4, 'Adrian.H.A@g4u.com', '', '', 'HID001', '$2y$10$7bRLHJQWH2bqzWDvtSMUdunn2oi1hE08xcwC.E9OhVEJKxfg8utH6', '2021-03-08 16:08:03', 0);
+INSERT INTO `accounts` (`id`, `email`, `first_name`, `last_name`, `username`, `password`, `created`, `user_level`, `appointment`) VALUES
+(1, 'Mustafa.M@g4u.com', 'Mustafa', 'Mahmood', 'MAH042', '$2y$10$p8AKkC86uypLuoRmyNIi4uCWFaRzgoQX.16NvWnpjwuD2dUQU9Wfu', '2020-11-10 11:18:17', 6, 'Sales Assistant GT'),
+(2, 'John.V@g4u.com', 'John', 'Vermont', 'VER121', '$2y$10$NhrCWy5QikjTOBsYvhQ96OvEZMDK47y.y8dhCmTkHDTtkgthkYQNC', '2020-11-04 15:35:39', 3, 'Mgr PG4U GT Dept'),
+(3, 'Ann.G@g4u.com', 'Ann', 'Greengold', 'GRE056', '$2y$10$TIffaKM0WRMVBT8Ulc34O.u7c408nluG1REUkFJxa6lVpForLCDI2', '2020-11-30 13:58:26', 5, 'Assistant QA Controller ACC Dept'),
+(4, 'Adrian.H.A@g4u.com', 'Adrian Hidcote', 'Armstrong', 'HID001', '$2y$10$7bRLHJQWH2bqzWDvtSMUdunn2oi1hE08xcwC.E9OhVEJKxfg8utH6', '2021-03-08 16:08:03', 1, 'MD & Chairman of G4U Board'),
+(6, 'Amanda.P@g4u.com', 'Amanda', 'Patel', 'PAT201', '$2y$10$B6Cx.DSYYnv7b6vO07bmdOz5l9cT8qLKKb6wJD1vptq9dzabUy99.', '2021-04-08 00:27:30', 6, 'Sales Assistant GT'),
+(7, 'Sarah.D@g4u.com', 'Sarah', 'Dunkley', 'DUN021', '$2y$10$Ly6SbXl9emLc3qmAErKRTeKUUkDc4xdh7522/nn8CQ97b14IHJ7cm', '2021-04-13 22:51:49', 2, 'CEO PG4U'),
+(8, 'Jennifer.G@g4u.com', 'Jennifer', 'Green', 'GRE123', '$2y$10$scUQ7lPAiu6AnzFWjNx5s.nNGdv2dvQNJZ5InH5LpbQlTX7NuHvaS', '2021-04-13 23:30:47', 3, 'Sales Assistant GT'),
+(9, 'Derek.P@g4u.com', 'Derek', 'Pitts', 'PIT101', '$2y$10$6LdSmL4vvkFbzQYjWBBgAOSKCHLGMJMOeQzmtetkeZrpBKM5ILJn.', '2021-04-13 23:31:27', 3, 'Sales Assistant GT'),
+(10, 'Enrico.P@g4u.com', 'Enrico', 'Piam', 'PIA412', '$2y$10$ah1Vq4sqP43.V2zP0Caa1efSD.yVbeYDvYmS8vUP3gioWzswZwTQ.', '2021-04-13 23:31:42', 3, 'Sales Assistant GT');
 
 -- --------------------------------------------------------
 
@@ -215,13 +221,13 @@ CREATE TABLE `products` (
 --
 
 INSERT INTO `products` (`ID`, `ProductName`, `ProductPrice`, `ProductQuantity`, `SupplierID`, `ProductImage`, `available`) VALUES
-(1, 'USB Power Bank 10000mAh', '995', 10, 'BI, BS', 'productimg1.jpg', '0'),
-(2, 'USB Power Bank 20000mAh', '1899', 10, 'BI, BS', 'productimg2.jpg', '0'),
-(3, 'USB Power Bank 25800mAh', '1999', 10, 'BI, BS', 'productimg3.jpg', '0'),
-(5, 'Spider Catcher', '199', 10, 'SH, BS ', 'productimg4.jpg', '0'),
-(6, 'Portable Personal Fan', '565', 10, 'BI, SH', 'productimg5.jpg', '0'),
-(9, 'Star Wars USB Cup Warmer BB-8', '1099', 10, 'BS, BI, SH', 'productimg6.jpg', '0'),
-(10, 'Polaroid Play 3D Pen', '2859', 10, 'SH, BS', 'productimg7.jpg', '0');
+(1, 'USB Power Bank 10000mAh', '995', 101, 'BI, BS', 'gadgets_image.jpg', '0'),
+(2, 'USB Power Bank 20000mAh', '1899', 10, 'BI, BS', 'gadgets_image.jpg', '0'),
+(3, 'USB Power Bank 25800mAh', '1999', 10, 'BI, BS', 'gadgets_image.jpg', '0'),
+(5, 'Spider Catcher', '199', 10, 'SH, BS ', 'gadgets_image.jpg', '0'),
+(6, 'Portable Personal Fan', '565', 10, 'BI, SH', 'gadgets_image.jpg', '0'),
+(9, 'Star Wars USB Cup Warmer BB-8', '1099', 10, 'BS, BI, SH', 'gadgets_image.jpg', '0'),
+(10, 'Polaroid Play 3D Pen', '2859', 10, 'SH, BS', 'gadgets_image.jpg', '0');
 
 -- --------------------------------------------------------
 
@@ -305,7 +311,7 @@ ALTER TABLE `shenzhenhousing`
 -- AUTO_INCREMENT dla tabeli `accounts`
 --
 ALTER TABLE `accounts`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
 --
 -- AUTO_INCREMENT dla tabeli `bitmore`
 --
