@@ -4,10 +4,11 @@
     font-size: 16px;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    text-align: center;
 }
 
 body {
-    background-color: #2C7A7E;
+    background-color: #f1efef;
 }
 
 .login {
@@ -95,7 +96,7 @@ body {
 }
 
 .menu_box {
-    background-color: lightgrey;
+    background-color: #2C7A7E;
     width: 300px;
     padding: 50px;
     margin: 20px;
@@ -113,11 +114,35 @@ body {
 
 .menu_h2 {
     text-align: center;
-    color: white;
+    color: black;
 }
 
 .footer {
     padding: 25px;
     text-align: center;
-    color: white;
+    color: black;
+}
+
+.links {
+    padding: 10px;
+    color: #2C7A7E;
+}
+
+.td_img {
+    max-width:75px;
+}
+
+.order_ss {
+    width: 1000px;;
+    clear: both;
+    float: left;
+
+}
+
+.order_hmmm {
+    width: 600px;
+}
+.order_right {
+    text-align: center;
+    float: left;
 }

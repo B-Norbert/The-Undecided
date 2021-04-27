@@ -15,28 +15,40 @@ $row=$select_stmt->fetch(PDO::FETCH_ASSOC);
 <head>
 	<title>G4U</title>
 	<link rel="stylesheet" href="style/style.css">
+	<script src="style/js/jquery-1.10.2.min.js"></script>
+	<link rel="stylesheet" href="style/bootstrap.min.css" />
+	<script src="style/js/jquery.dataTables.min.js"></script>
+	<script src="style/js/dataTables.bootstrap.min.js"></script>		
+	<link rel="stylesheet" href="style/dataTables.bootstrap.min.css" />
+	<script src="style/js/bootstrap.min.js"></script>
 </head>
-<body>
-	<div class="nav">
-		<nav>
-			<div class="logo">
-				<h4 href="../../index.php">G4U</h4>
-			</div>
-			<ul class="nav-links">
-				<?php
-				if(isset($_SESSION['user_login']))
-				{
-				?>
-				<?php	
-						echo "<a href='../../index.php'>Home </a>";
-						echo "<a href='#'>" .$row['username']."</a>";
-						echo "<a href='#'>" .$row['user_level']."</a>";
-						echo "<a href='../logout.php'> Logout</a>";
-				}
-				?>
-
-			<ul>
+	<body>
+		<br />
+		<div class="container"> 
+		<img src="style/images/logo3.png" width="275" height="275" title="G4U" alt="G4U" />
+			<?php
+			if(isset($_SESSION['user_login']))
+			{
+			?>
+			<nav class="navbar navbar-inverse">
+				<div class="container-fluid">
+					<div class="navbar-header">
+						<a href="index.php" class="navbar-brand">Home</a>
+					</div>
+					<ul class="nav navbar-nav navbar-right">
+					<?php
+					if($_SESSION["user_access"] == '1')
+					{
+						echo "<li><a href='../admin_panel.php'>Admin Panel</a></li>";
+					}
+					?>
+					<?php	
+						echo "<li><a href='../userdetails.php'>" .$row['first_name']."</a></li>";
+						echo "<li><a href='../logout.php'> Logout</a></li>";
+						echo "<br / >";
+					}
+					?>
+					</ul>
 			</nav>
-		</div>
-	</div>
+				</div>
 </body>

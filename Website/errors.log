@@ -1,0 +1,559 @@
+[22-Apr-2021 18:17:34 Europe/Berlin] PHP Notice:  Undefined variable: _SESSION in C:\xampp\htdocs\function.php on line 55
+[22-Apr-2021 18:17:34 Europe/Berlin] PHP Notice:  Undefined variable: _SESSION in C:\xampp\htdocs\function.php on line 74
+[22-Apr-2021 18:17:34 Europe/Berlin] PHP Notice:  Undefined variable: _SESSION in C:\xampp\htdocs\function.php on line 93
+[22-Apr-2021 18:19:46 Europe/Berlin] PHP Notice:  Undefined variable: _SESSION in C:\xampp\htdocs\function.php on line 55
+[22-Apr-2021 18:19:46 Europe/Berlin] PHP Notice:  Undefined variable: _SESSION in C:\xampp\htdocs\function.php on line 74
+[22-Apr-2021 18:19:46 Europe/Berlin] PHP Notice:  Undefined variable: _SESSION in C:\xampp\htdocs\function.php on line 93
+[22-Apr-2021 18:22:25 Europe/Berlin] PHP Warning:  include(../data/db.php): failed to open stream: No such file or directory in C:\xampp\htdocs\navbar.php on line 2
+[22-Apr-2021 18:22:25 Europe/Berlin] PHP Warning:  include(): Failed opening '../data/db.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\navbar.php on line 2
+[22-Apr-2021 18:22:35 Europe/Berlin] PHP Warning:  include(../../data/db.php): failed to open stream: No such file or directory in C:\xampp\htdocs\navbar.php on line 2
+[22-Apr-2021 18:22:35 Europe/Berlin] PHP Warning:  include(): Failed opening '../../data/db.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\navbar.php on line 2
+[22-Apr-2021 18:22:51 Europe/Berlin] PHP Notice:  Undefined variable: _SESSION in C:\xampp\htdocs\function.php on line 55
+[22-Apr-2021 18:22:51 Europe/Berlin] PHP Notice:  Undefined variable: _SESSION in C:\xampp\htdocs\function.php on line 74
+[22-Apr-2021 18:22:51 Europe/Berlin] PHP Notice:  Undefined variable: _SESSION in C:\xampp\htdocs\function.php on line 93
+[22-Apr-2021 18:23:33 Europe/Berlin] PHP Warning:  include(../../data/db.php): failed to open stream: No such file or directory in C:\xampp\htdocs\navbar.php on line 2
+[22-Apr-2021 18:23:33 Europe/Berlin] PHP Warning:  include(): Failed opening '../../data/db.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\navbar.php on line 2
+[22-Apr-2021 18:23:33 Europe/Berlin] PHP Parse error:  syntax error, unexpected '}', expecting end of file in C:\xampp\htdocs\function.php on line 72
+[22-Apr-2021 18:24:18 Europe/Berlin] PHP Warning:  include(../../data/db.php): failed to open stream: No such file or directory in C:\xampp\htdocs\navbar.php on line 2
+[22-Apr-2021 18:24:18 Europe/Berlin] PHP Warning:  include(): Failed opening '../../data/db.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\navbar.php on line 2
+[22-Apr-2021 18:24:27 Europe/Berlin] PHP Warning:  include(../../data/db.php): failed to open stream: No such file or directory in C:\xampp\htdocs\navbar.php on line 2
+[22-Apr-2021 18:24:27 Europe/Berlin] PHP Warning:  include(): Failed opening '../../data/db.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\navbar.php on line 2
+[22-Apr-2021 18:29:32 Europe/Berlin] PHP Notice:  Undefined index: products_order_id in C:\xampp\htdocs\order_action.php on line 150
+[22-Apr-2021 18:29:32 Europe/Berlin] PHP Notice:  Undefined index: products_order_id in C:\xampp\htdocs\order_action.php on line 167
+[22-Apr-2021 18:29:32 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'products_order_id' cannot be null in C:\xampp\htdocs\order_action.php:171
+Stack trace:
+#0 C:\xampp\htdocs\order_action.php(171): PDOStatement->execute(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\order_action.php on line 171
+[22-Apr-2021 18:30:14 Europe/Berlin] PHP Notice:  Undefined index: products_order_id in C:\xampp\htdocs\order_action.php on line 150
+[22-Apr-2021 18:30:14 Europe/Berlin] PHP Notice:  Undefined index: products_order_id in C:\xampp\htdocs\order_action.php on line 167
+[22-Apr-2021 18:30:14 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'products_order_id' cannot be null in C:\xampp\htdocs\order_action.php:171
+Stack trace:
+#0 C:\xampp\htdocs\order_action.php(171): PDOStatement->execute(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\order_action.php on line 171
+[22-Apr-2021 18:30:26 Europe/Berlin] PHP Notice:  Undefined index: products_order_id in C:\xampp\htdocs\order_action.php on line 150
+[22-Apr-2021 18:30:26 Europe/Berlin] PHP Notice:  Undefined index: products_order_id in C:\xampp\htdocs\order_action.php on line 167
+[22-Apr-2021 18:30:26 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'products_order_id' cannot be null in C:\xampp\htdocs\order_action.php:171
+Stack trace:
+#0 C:\xampp\htdocs\order_action.php(171): PDOStatement->execute(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\order_action.php on line 171
+[22-Apr-2021 18:31:03 Europe/Berlin] PHP Notice:  Undefined index: products_order_id in C:\xampp\htdocs\order_action.php on line 151
+[22-Apr-2021 18:31:03 Europe/Berlin] PHP Notice:  Undefined index: products_order_id in C:\xampp\htdocs\order_action.php on line 168
+[22-Apr-2021 18:31:03 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'products_order_id' cannot be null in C:\xampp\htdocs\order_action.php:172
+Stack trace:
+#0 C:\xampp\htdocs\order_action.php(172): PDOStatement->execute(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\order_action.php on line 172
+[22-Apr-2021 18:32:48 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in C:\xampp\htdocs\user_action.php on line 8
+[22-Apr-2021 18:32:49 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in C:\xampp\htdocs\user_action.php on line 8
+[22-Apr-2021 18:32:50 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in C:\xampp\htdocs\user_action.php on line 8
+[22-Apr-2021 18:32:51 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in C:\xampp\htdocs\user_action.php on line 8
+[22-Apr-2021 18:32:51 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in C:\xampp\htdocs\user_action.php on line 8
+[22-Apr-2021 18:32:55 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in C:\xampp\htdocs\user_action.php on line 8
+[22-Apr-2021 18:32:55 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in C:\xampp\htdocs\user_action.php on line 8
+[22-Apr-2021 18:32:55 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in C:\xampp\htdocs\user_action.php on line 8
+[22-Apr-2021 18:32:55 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in C:\xampp\htdocs\user_action.php on line 8
+[22-Apr-2021 18:33:30 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in C:\xampp\htdocs\user_action.php on line 8
+[22-Apr-2021 18:33:31 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in C:\xampp\htdocs\user_action.php on line 8
+[22-Apr-2021 18:34:54 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in C:\xampp\htdocs\user_action.php on line 8
+[22-Apr-2021 18:35:16 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in C:\xampp\htdocs\user_action.php on line 8
+[22-Apr-2021 18:35:21 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in C:\xampp\htdocs\user_action.php on line 8
+[22-Apr-2021 18:35:46 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in C:\xampp\htdocs\user_action.php on line 8
+[22-Apr-2021 18:35:46 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in C:\xampp\htdocs\user_action.php on line 8
+[22-Apr-2021 18:35:46 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in C:\xampp\htdocs\user_action.php on line 8
+[22-Apr-2021 18:35:47 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in C:\xampp\htdocs\user_action.php on line 8
+[22-Apr-2021 18:35:47 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in C:\xampp\htdocs\user_action.php on line 8
+[22-Apr-2021 18:35:47 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in C:\xampp\htdocs\user_action.php on line 8
+[22-Apr-2021 18:35:47 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in C:\xampp\htdocs\user_action.php on line 8
+[22-Apr-2021 18:36:05 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in C:\xampp\htdocs\user_action.php on line 8
+[22-Apr-2021 18:36:05 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in C:\xampp\htdocs\user_action.php on line 8
+[22-Apr-2021 18:36:05 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in C:\xampp\htdocs\user_action.php on line 8
+[22-Apr-2021 18:36:05 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in C:\xampp\htdocs\user_action.php on line 8
+[22-Apr-2021 18:37:18 Europe/Berlin] PHP Notice:  Undefined index: products_order_id in C:\xampp\htdocs\order_action.php on line 151
+[22-Apr-2021 18:37:18 Europe/Berlin] PHP Notice:  Undefined index: products_order_id in C:\xampp\htdocs\order_action.php on line 168
+[22-Apr-2021 18:37:18 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'products_order_id' cannot be null in C:\xampp\htdocs\order_action.php:172
+Stack trace:
+#0 C:\xampp\htdocs\order_action.php(172): PDOStatement->execute(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\order_action.php on line 172
+[22-Apr-2021 18:58:01 Europe/Berlin] PHP Notice:  Undefined index: user_access in C:\xampp\htdocs\index.php on line 24
+[22-Apr-2021 19:02:25 Europe/Berlin] PHP Notice:  Undefined index: products_order_name in C:\xampp\htdocs\order_action.php on line 191
+[22-Apr-2021 22:31:01 Europe/Berlin] PHP Notice:  Undefined index: user_access in C:\xampp\htdocs\index.php on line 24
+[22-Apr-2021 22:31:01 Europe/Berlin] PHP Notice:  Undefined index: user_access in C:\xampp\htdocs\index.php on line 24
+[23-Apr-2021 01:04:13 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column '0' in 'order clause' in C:\xampp\htdocs\user_fetch.php:33
+Stack trace:
+#0 C:\xampp\htdocs\user_fetch.php(33): PDO->prepare('\r\nSELECT * FROM...')
+#1 {main}
+  thrown in C:\xampp\htdocs\user_fetch.php on line 33
+[23-Apr-2021 02:45:41 Europe/Berlin] PHP Parse error:  syntax error, unexpected '':products_order_total'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in C:\xampp\htdocs\order_action.php on line 21
+[23-Apr-2021 02:46:17 Europe/Berlin] PHP Notice:  Undefined variable: _SESSION in C:\xampp\htdocs\order_action.php on line 20
+[23-Apr-2021 02:46:17 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'account_id' cannot be null in C:\xampp\htdocs\order_action.php:25
+Stack trace:
+#0 C:\xampp\htdocs\order_action.php(25): PDOStatement->execute(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\order_action.php on line 25
+[23-Apr-2021 15:46:54 Europe/Berlin] PHP Notice:  Undefined index: user_access in C:\xampp\htdocs\index.php on line 24
+[23-Apr-2021 18:04:24 Europe/Berlin] PHP Notice:  Undefined index: user_access in C:\xampp\htdocs\index.php on line 24
+[23-Apr-2021 18:04:24 Europe/Berlin] PHP Notice:  Undefined index: user_access in C:\xampp\htdocs\index.php on line 24
+[23-Apr-2021 21:28:03 Europe/Berlin] PHP Notice:  Undefined index: product_order_process in C:\xampp\htdocs\order_action.php on line 28
+[23-Apr-2021 21:28:03 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'products_order_process' cannot be null in C:\xampp\htdocs\order_action.php:28
+Stack trace:
+#0 C:\xampp\htdocs\order_action.php(28): PDOStatement->execute(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\order_action.php on line 28
+[23-Apr-2021 21:31:22 Europe/Berlin] PHP Notice:  Undefined index: product_order_process in C:\xampp\htdocs\order_action.php on line 28
+[23-Apr-2021 21:31:22 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'products_order_process' cannot be null in C:\xampp\htdocs\order_action.php:28
+Stack trace:
+#0 C:\xampp\htdocs\order_action.php(28): PDOStatement->execute(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\order_action.php on line 28
+[23-Apr-2021 23:36:12 Europe/Berlin] PHP Notice:  Undefined index: products_order_status in C:\xampp\htdocs\order_action.php on line 244
+[23-Apr-2021 23:38:26 Europe/Berlin] PHP Notice:  Undefined index: products_order_status in C:\xampp\htdocs\order_action.php on line 244
+[23-Apr-2021 23:39:44 Europe/Berlin] PHP Notice:  Undefined index: products_order_process in C:\xampp\htdocs\order_action.php on line 242
+[23-Apr-2021 23:40:50 Europe/Berlin] PHP Notice:  Undefined index: products_order_process in C:\xampp\htdocs\order_action.php on line 243
+[23-Apr-2021 23:42:05 Europe/Berlin] PHP Notice:  Undefined index: products_order_process in C:\xampp\htdocs\order_action.php on line 243
+[23-Apr-2021 23:43:54 Europe/Berlin] PHP Notice:  Undefined index: products_order_process in C:\xampp\htdocs\order_action.php on line 243
+[23-Apr-2021 23:46:43 Europe/Berlin] PHP Notice:  Undefined index: products_order_process in C:\xampp\htdocs\order_action.php on line 243
+[23-Apr-2021 23:47:10 Europe/Berlin] PHP Notice:  Undefined index: products_order_process in C:\xampp\htdocs\order_action.php on line 243
+[25-Apr-2021 18:21:02 Europe/Berlin] PHP Notice:  Undefined index: user_access in C:\xampp\htdocs\index.php on line 24
+[25-Apr-2021 20:46:32 Europe/Berlin] PHP Notice:  Undefined index: user_access in C:\xampp\htdocs\index.php on line 24
+[27-Apr-2021 00:41:37 Europe/Berlin] PHP Notice:  Undefined index: user_access in C:\xampp\htdocs\index.php on line 24
+[27-Apr-2021 00:42:20 Europe/Berlin] PHP Notice:  Undefined index: user_access in C:\xampp\htdocs\index.php on line 24
+[27-Apr-2021 02:15:42 Europe/Berlin] PHP Notice:  Undefined index: product_id in C:\xampp\htdocs\order_action.php on line 301
+[27-Apr-2021 02:15:42 Europe/Berlin] PHP Notice:  Undefined index: products_order_supplier in C:\xampp\htdocs\order_action.php on line 332
+[27-Apr-2021 02:15:42 Europe/Berlin] PHP Notice:  Undefined index: products_order_date in C:\xampp\htdocs\order_action.php on line 333
+[27-Apr-2021 02:15:42 Europe/Berlin] PHP Notice:  Undefined index: products_order_notes in C:\xampp\htdocs\order_action.php on line 334
+[27-Apr-2021 02:15:42 Europe/Berlin] PHP Notice:  Undefined index: products_order_status in C:\xampp\htdocs\order_action.php on line 337
+[27-Apr-2021 02:18:08 Europe/Berlin] PHP Notice:  Undefined index: product_id in C:\xampp\htdocs\order_action.php on line 301
+[27-Apr-2021 02:18:08 Europe/Berlin] PHP Notice:  Undefined index: products_order_supplier in C:\xampp\htdocs\order_action.php on line 331
+[27-Apr-2021 02:18:08 Europe/Berlin] PHP Notice:  Undefined index: products_order_date in C:\xampp\htdocs\order_action.php on line 332
+[27-Apr-2021 02:18:08 Europe/Berlin] PHP Notice:  Undefined index: products_order_notes in C:\xampp\htdocs\order_action.php on line 333
+[27-Apr-2021 02:18:08 Europe/Berlin] PHP Notice:  Undefined index: products_order_status in C:\xampp\htdocs\order_action.php on line 336
+[27-Apr-2021 02:18:14 Europe/Berlin] PHP Notice:  Undefined index: product_id in C:\xampp\htdocs\order_action.php on line 301
+[27-Apr-2021 02:18:14 Europe/Berlin] PHP Notice:  Undefined index: products_order_supplier in C:\xampp\htdocs\order_action.php on line 331
+[27-Apr-2021 02:18:14 Europe/Berlin] PHP Notice:  Undefined index: products_order_date in C:\xampp\htdocs\order_action.php on line 332
+[27-Apr-2021 02:18:14 Europe/Berlin] PHP Notice:  Undefined index: products_order_notes in C:\xampp\htdocs\order_action.php on line 333
+[27-Apr-2021 02:18:14 Europe/Berlin] PHP Notice:  Undefined index: products_order_status in C:\xampp\htdocs\order_action.php on line 336
+[27-Apr-2021 02:24:32 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 69
+[27-Apr-2021 02:24:32 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 69
+[27-Apr-2021 02:24:32 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 69
+[27-Apr-2021 02:24:32 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 69
+[27-Apr-2021 02:24:32 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 69
+[27-Apr-2021 02:24:32 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 69
+[27-Apr-2021 02:24:32 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 69
+[27-Apr-2021 02:24:32 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 69
+[27-Apr-2021 02:24:32 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 69
+[27-Apr-2021 02:24:32 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 69
+[27-Apr-2021 02:24:32 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 69
+[27-Apr-2021 02:24:32 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 69
+[27-Apr-2021 02:24:33 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 69
+[27-Apr-2021 02:24:33 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 69
+[27-Apr-2021 02:24:33 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 69
+[27-Apr-2021 02:24:33 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 69
+[27-Apr-2021 02:24:33 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 69
+[27-Apr-2021 02:24:33 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 69
+[27-Apr-2021 02:24:33 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 69
+[27-Apr-2021 02:24:33 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 69
+[27-Apr-2021 02:24:33 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 69
+[27-Apr-2021 02:24:33 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 69
+[27-Apr-2021 02:24:33 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 69
+[27-Apr-2021 02:24:33 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 69
+[27-Apr-2021 02:24:34 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 69
+[27-Apr-2021 02:24:34 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 69
+[27-Apr-2021 02:24:34 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 69
+[27-Apr-2021 02:24:34 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 69
+[27-Apr-2021 02:24:34 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 69
+[27-Apr-2021 02:24:34 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 69
+[27-Apr-2021 02:24:34 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 69
+[27-Apr-2021 02:24:34 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 69
+[27-Apr-2021 02:24:34 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 69
+[27-Apr-2021 02:24:34 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 69
+[27-Apr-2021 02:24:34 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 69
+[27-Apr-2021 02:24:34 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 69
+[27-Apr-2021 02:24:41 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 69
+[27-Apr-2021 02:24:41 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 69
+[27-Apr-2021 02:24:41 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 69
+[27-Apr-2021 02:24:41 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 69
+[27-Apr-2021 02:24:41 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 69
+[27-Apr-2021 02:24:41 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 69
+[27-Apr-2021 02:24:41 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 69
+[27-Apr-2021 02:24:41 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 69
+[27-Apr-2021 02:24:41 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 69
+[27-Apr-2021 02:24:41 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 69
+[27-Apr-2021 02:24:41 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 69
+[27-Apr-2021 02:24:41 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 69
+[27-Apr-2021 12:58:35 Europe/Berlin] PHP Notice:  Undefined index: user_access in C:\xampp\htdocs\index.php on line 24
+[27-Apr-2021 13:10:33 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 69
+[27-Apr-2021 13:10:33 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 69
+[27-Apr-2021 13:10:33 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 69
+[27-Apr-2021 13:10:33 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 69
+[27-Apr-2021 13:10:33 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 69
+[27-Apr-2021 13:10:33 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 69
+[27-Apr-2021 13:10:33 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 69
+[27-Apr-2021 13:10:33 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 69
+[27-Apr-2021 13:10:33 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 69
+[27-Apr-2021 13:10:33 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 69
+[27-Apr-2021 13:10:33 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 69
+[27-Apr-2021 13:10:33 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 69
+[27-Apr-2021 13:20:18 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 69
+[27-Apr-2021 13:20:18 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 69
+[27-Apr-2021 13:20:18 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 69
+[27-Apr-2021 13:20:18 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 69
+[27-Apr-2021 13:20:18 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 69
+[27-Apr-2021 13:20:18 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 69
+[27-Apr-2021 13:20:18 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 69
+[27-Apr-2021 13:20:18 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 69
+[27-Apr-2021 13:20:18 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 69
+[27-Apr-2021 13:20:18 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 69
+[27-Apr-2021 13:20:18 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 69
+[27-Apr-2021 13:20:18 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 69
+[27-Apr-2021 13:20:22 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 69
+[27-Apr-2021 13:20:22 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 69
+[27-Apr-2021 13:20:22 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 69
+[27-Apr-2021 13:20:22 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 69
+[27-Apr-2021 13:20:22 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 69
+[27-Apr-2021 13:20:22 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 69
+[27-Apr-2021 13:20:22 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 69
+[27-Apr-2021 13:20:22 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 69
+[27-Apr-2021 13:20:22 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 69
+[27-Apr-2021 13:20:22 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 69
+[27-Apr-2021 13:20:22 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 69
+[27-Apr-2021 13:20:22 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 69
+[27-Apr-2021 13:20:26 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 69
+[27-Apr-2021 13:20:26 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 69
+[27-Apr-2021 13:20:26 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 69
+[27-Apr-2021 13:20:26 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 69
+[27-Apr-2021 13:20:26 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 69
+[27-Apr-2021 13:20:26 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 69
+[27-Apr-2021 13:20:26 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 69
+[27-Apr-2021 13:20:26 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 69
+[27-Apr-2021 13:20:26 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 69
+[27-Apr-2021 13:20:26 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 69
+[27-Apr-2021 13:20:26 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 69
+[27-Apr-2021 13:20:26 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 69
+[27-Apr-2021 13:20:28 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 69
+[27-Apr-2021 13:20:28 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 69
+[27-Apr-2021 13:20:28 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 69
+[27-Apr-2021 13:20:28 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 69
+[27-Apr-2021 13:20:28 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 69
+[27-Apr-2021 13:20:28 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 69
+[27-Apr-2021 13:20:28 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 69
+[27-Apr-2021 13:20:28 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 69
+[27-Apr-2021 13:20:28 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 69
+[27-Apr-2021 13:20:28 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 69
+[27-Apr-2021 13:20:28 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 69
+[27-Apr-2021 13:20:28 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 69
+[27-Apr-2021 13:21:11 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 69
+[27-Apr-2021 13:21:11 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 69
+[27-Apr-2021 13:21:11 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 69
+[27-Apr-2021 13:21:11 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 69
+[27-Apr-2021 13:21:11 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 69
+[27-Apr-2021 13:21:11 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 69
+[27-Apr-2021 13:21:11 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 69
+[27-Apr-2021 13:21:11 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 69
+[27-Apr-2021 13:21:11 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 69
+[27-Apr-2021 13:21:11 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 69
+[27-Apr-2021 13:21:11 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 69
+[27-Apr-2021 13:21:11 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 69
+[27-Apr-2021 13:21:15 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 69
+[27-Apr-2021 13:21:15 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 69
+[27-Apr-2021 13:21:15 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 69
+[27-Apr-2021 13:21:15 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 69
+[27-Apr-2021 13:21:15 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 69
+[27-Apr-2021 13:21:15 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 69
+[27-Apr-2021 13:21:15 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 69
+[27-Apr-2021 13:21:15 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 69
+[27-Apr-2021 13:21:15 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 69
+[27-Apr-2021 13:21:15 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 69
+[27-Apr-2021 13:21:15 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 69
+[27-Apr-2021 13:21:15 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 69
+[27-Apr-2021 13:21:59 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 128
+[27-Apr-2021 13:21:59 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 128
+[27-Apr-2021 13:21:59 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 128
+[27-Apr-2021 13:21:59 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 128
+[27-Apr-2021 13:21:59 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 128
+[27-Apr-2021 13:21:59 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 128
+[27-Apr-2021 13:21:59 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 128
+[27-Apr-2021 13:21:59 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 128
+[27-Apr-2021 13:21:59 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 128
+[27-Apr-2021 13:21:59 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 128
+[27-Apr-2021 13:21:59 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 128
+[27-Apr-2021 13:21:59 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 128
+[27-Apr-2021 13:21:59 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 128
+[27-Apr-2021 13:21:59 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 128
+[27-Apr-2021 13:21:59 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 128
+[27-Apr-2021 13:21:59 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 128
+[27-Apr-2021 13:21:59 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 128
+[27-Apr-2021 13:21:59 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 128
+[27-Apr-2021 13:21:59 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 128
+[27-Apr-2021 13:21:59 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 128
+[27-Apr-2021 13:21:59 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 128
+[27-Apr-2021 13:21:59 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 128
+[27-Apr-2021 13:21:59 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 128
+[27-Apr-2021 13:21:59 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 128
+[27-Apr-2021 13:21:59 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 128
+[27-Apr-2021 13:21:59 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 128
+[27-Apr-2021 13:21:59 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 128
+[27-Apr-2021 13:21:59 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 128
+[27-Apr-2021 13:21:59 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 128
+[27-Apr-2021 13:21:59 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 128
+[27-Apr-2021 13:21:59 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 128
+[27-Apr-2021 13:21:59 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 128
+[27-Apr-2021 13:21:59 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 128
+[27-Apr-2021 13:21:59 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 128
+[27-Apr-2021 13:21:59 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 128
+[27-Apr-2021 13:21:59 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 128
+[27-Apr-2021 13:21:59 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 128
+[27-Apr-2021 13:21:59 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 128
+[27-Apr-2021 13:21:59 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 128
+[27-Apr-2021 13:21:59 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 128
+[27-Apr-2021 13:21:59 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 128
+[27-Apr-2021 13:21:59 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 128
+[27-Apr-2021 13:21:59 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 128
+[27-Apr-2021 13:21:59 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 128
+[27-Apr-2021 13:21:59 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 128
+[27-Apr-2021 13:21:59 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 128
+[27-Apr-2021 13:21:59 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 128
+[27-Apr-2021 13:21:59 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\function.php on line 128
+[27-Apr-2021 13:22:25 Europe/Berlin] PHP Notice:  Undefined index: product_id in C:\xampp\htdocs\order_action.php on line 301
+[27-Apr-2021 13:22:25 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '= ?
+			WHERE products_order_id = ?' at line 2 in C:\xampp\htdocs\order_action.php:323
+Stack trace:
+#0 C:\xampp\htdocs\order_action.php(323): PDO->prepare('\r\n\t\t\tUPDATE pro...')
+#1 {main}
+  thrown in C:\xampp\htdocs\order_action.php on line 323
+[27-Apr-2021 13:28:43 Europe/Berlin] PHP Notice:  Undefined index: product_id in C:\xampp\htdocs\order_action.php on line 301
+[27-Apr-2021 13:28:43 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '= ?
+			WHERE products_order_id = ?' at line 2 in C:\xampp\htdocs\order_action.php:323
+Stack trace:
+#0 C:\xampp\htdocs\order_action.php(323): PDO->prepare('\r\n\t\t\tUPDATE pro...')
+#1 {main}
+  thrown in C:\xampp\htdocs\order_action.php on line 323
+[27-Apr-2021 13:30:12 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ID' in 'order clause' in C:\xampp\htdocs\fetch.php:33
+Stack trace:
+#0 C:\xampp\htdocs\fetch.php(33): PDO->prepare('\r\nSELECT * FROM...')
+#1 {main}
+  thrown in C:\xampp\htdocs\fetch.php on line 33
+[27-Apr-2021 13:30:47 Europe/Berlin] PHP Notice:  Undefined index: product_id in C:\xampp\htdocs\order_action.php on line 301
+[27-Apr-2021 13:30:47 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '= ?
+			WHERE products_order_id = ?' at line 2 in C:\xampp\htdocs\order_action.php:323
+Stack trace:
+#0 C:\xampp\htdocs\order_action.php(323): PDO->prepare('\r\n\t\t\tUPDATE pro...')
+#1 {main}
+  thrown in C:\xampp\htdocs\order_action.php on line 323
+[27-Apr-2021 13:30:51 Europe/Berlin] PHP Notice:  Undefined index: product_id in C:\xampp\htdocs\order_action.php on line 301
+[27-Apr-2021 13:30:51 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '= ?
+			WHERE products_order_id = ?' at line 2 in C:\xampp\htdocs\order_action.php:323
+Stack trace:
+#0 C:\xampp\htdocs\order_action.php(323): PDO->prepare('\r\n\t\t\tUPDATE pro...')
+#1 {main}
+  thrown in C:\xampp\htdocs\order_action.php on line 323
+[27-Apr-2021 13:31:45 Europe/Berlin] PHP Notice:  Undefined variable: product_id in C:\xampp\htdocs\order_action.php on line 300
+[27-Apr-2021 13:31:45 Europe/Berlin] PHP Notice:  Undefined variable: output in C:\xampp\htdocs\function.php on line 149
+[27-Apr-2021 13:31:45 Europe/Berlin] PHP Notice:  Undefined index: product_id in C:\xampp\htdocs\order_action.php on line 303
+[27-Apr-2021 13:31:45 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '= ?
+			WHERE products_order_id = ?' at line 2 in C:\xampp\htdocs\order_action.php:325
+Stack trace:
+#0 C:\xampp\htdocs\order_action.php(325): PDO->prepare('\r\n\t\t\tUPDATE pro...')
+#1 {main}
+  thrown in C:\xampp\htdocs\order_action.php on line 325
+[27-Apr-2021 13:32:12 Europe/Berlin] PHP Notice:  Undefined index: product_id in C:\xampp\htdocs\order_action.php on line 302
+[27-Apr-2021 13:32:12 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '= ?
+			WHERE products_order_id = ?' at line 2 in C:\xampp\htdocs\order_action.php:324
+Stack trace:
+#0 C:\xampp\htdocs\order_action.php(324): PDO->prepare('\r\n\t\t\tUPDATE pro...')
+#1 {main}
+  thrown in C:\xampp\htdocs\order_action.php on line 324
+[27-Apr-2021 13:33:47 Europe/Berlin] PHP Notice:  Undefined index: product_id in C:\xampp\htdocs\order_action.php on line 302
+[27-Apr-2021 13:33:47 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '= ?
+			WHERE products_order_id = ?' at line 2 in C:\xampp\htdocs\order_action.php:324
+Stack trace:
+#0 C:\xampp\htdocs\order_action.php(324): PDO->prepare('\r\n\t\t\tUPDATE pro...')
+#1 {main}
+  thrown in C:\xampp\htdocs\order_action.php on line 324
+[27-Apr-2021 13:35:16 Europe/Berlin] PHP Notice:  Undefined index: product_id in C:\xampp\htdocs\order_action.php on line 302
+[27-Apr-2021 13:35:16 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '= ?
+			WHERE products_order_id = ?' at line 2 in C:\xampp\htdocs\order_action.php:324
+Stack trace:
+#0 C:\xampp\htdocs\order_action.php(324): PDO->prepare('\r\n\t\t\tUPDATE pro...')
+#1 {main}
+  thrown in C:\xampp\htdocs\order_action.php on line 324
+[27-Apr-2021 13:50:20 Europe/Berlin] PHP Notice:  Undefined variable: products_id in C:\xampp\htdocs\order_action.php on line 300
+[27-Apr-2021 13:50:20 Europe/Berlin] PHP Notice:  Undefined variable: output in C:\xampp\htdocs\function.php on line 149
+[27-Apr-2021 13:50:20 Europe/Berlin] PHP Notice:  Undefined index: product_id in C:\xampp\htdocs\order_action.php on line 302
+[27-Apr-2021 13:50:20 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '= ?
+			WHERE products_order_id = ?' at line 2 in C:\xampp\htdocs\order_action.php:324
+Stack trace:
+#0 C:\xampp\htdocs\order_action.php(324): PDO->prepare('\r\n\t\t\tUPDATE pro...')
+#1 {main}
+  thrown in C:\xampp\htdocs\order_action.php on line 324
+[27-Apr-2021 13:51:32 Europe/Berlin] PHP Notice:  Undefined variable: products_id in C:\xampp\htdocs\order_action.php on line 300
+[27-Apr-2021 13:51:32 Europe/Berlin] PHP Notice:  Undefined variable: output in C:\xampp\htdocs\function.php on line 149
+[27-Apr-2021 13:51:32 Europe/Berlin] PHP Notice:  Undefined index: product_id in C:\xampp\htdocs\order_action.php on line 302
+[27-Apr-2021 13:51:32 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '= ?
+			WHERE products_order_id = ?' at line 2 in C:\xampp\htdocs\order_action.php:324
+Stack trace:
+#0 C:\xampp\htdocs\order_action.php(324): PDO->prepare('\r\n\t\t\tUPDATE pro...')
+#1 {main}
+  thrown in C:\xampp\htdocs\order_action.php on line 324
+[27-Apr-2021 13:52:47 Europe/Berlin] PHP Notice:  Undefined index: product_id in C:\xampp\htdocs\order_action.php on line 310
+[27-Apr-2021 13:52:47 Europe/Berlin] PHP Notice:  Undefined index: products_order_supplier in C:\xampp\htdocs\order_action.php on line 343
+[27-Apr-2021 13:52:47 Europe/Berlin] PHP Notice:  Undefined index: products_order_date in C:\xampp\htdocs\order_action.php on line 344
+[27-Apr-2021 13:52:47 Europe/Berlin] PHP Notice:  Undefined index: products_order_notes in C:\xampp\htdocs\order_action.php on line 345
+[27-Apr-2021 13:52:47 Europe/Berlin] PHP Notice:  Undefined index: products_order_status in C:\xampp\htdocs\order_action.php on line 348
+[27-Apr-2021 13:55:25 Europe/Berlin] PHP Notice:  Undefined index: product_id in C:\xampp\htdocs\order_action.php on line 301
+[27-Apr-2021 13:55:25 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '= ?
+			WHERE products_order_id = ?' at line 2 in C:\xampp\htdocs\order_action.php:323
+Stack trace:
+#0 C:\xampp\htdocs\order_action.php(323): PDO->prepare('\r\n\t\t\tUPDATE pro...')
+#1 {main}
+  thrown in C:\xampp\htdocs\order_action.php on line 323
+[27-Apr-2021 13:56:11 Europe/Berlin] PHP Notice:  Undefined variable: products_id in C:\xampp\htdocs\order_action.php on line 233
+[27-Apr-2021 13:56:11 Europe/Berlin] PHP Notice:  Undefined variable: output in C:\xampp\htdocs\function.php on line 149
+[27-Apr-2021 13:56:11 Europe/Berlin] PHP Notice:  Undefined index: product_id in C:\xampp\htdocs\order_action.php on line 302
+[27-Apr-2021 13:56:11 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '= ?
+			WHERE products_order_id = ?' at line 2 in C:\xampp\htdocs\order_action.php:324
+Stack trace:
+#0 C:\xampp\htdocs\order_action.php(324): PDO->prepare('\r\n\t\t\tUPDATE pro...')
+#1 {main}
+  thrown in C:\xampp\htdocs\order_action.php on line 324
+[27-Apr-2021 14:07:55 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '= ?
+			WHERE products_order_id = ?' at line 2 in C:\xampp\htdocs\order_action.php:306
+Stack trace:
+#0 C:\xampp\htdocs\order_action.php(306): PDO->prepare('\r\n\t\t\tUPDATE pro...')
+#1 {main}
+  thrown in C:\xampp\htdocs\order_action.php on line 306
+[27-Apr-2021 14:08:38 Europe/Berlin] PHP Notice:  Undefined index: product_id in C:\xampp\htdocs\order_action.php on line 302
+[27-Apr-2021 14:09:58 Europe/Berlin] PHP Notice:  Undefined index: product_id in C:\xampp\htdocs\order_action.php on line 302
+[27-Apr-2021 14:13:07 Europe/Berlin] PHP Notice:  Undefined index: product_id in C:\xampp\htdocs\order_action.php on line 302
+[27-Apr-2021 14:14:34 Europe/Berlin] PHP Notice:  Undefined index: product_id in C:\xampp\htdocs\order_action.php on line 302
+[27-Apr-2021 14:15:16 Europe/Berlin] PHP Notice:  Undefined index: product_id in C:\xampp\htdocs\order_action.php on line 302
+[27-Apr-2021 14:22:33 Europe/Berlin] PHP Notice:  Undefined index: products_order_process in C:\xampp\htdocs\order_action.php on line 299
+[27-Apr-2021 14:22:33 Europe/Berlin] PHP Notice:  Undefined index: products_order_process in C:\xampp\htdocs\order_action.php on line 301
+[27-Apr-2021 14:22:33 Europe/Berlin] PHP Notice:  Undefined index: products_order_process in C:\xampp\htdocs\order_action.php on line 322
+[27-Apr-2021 14:22:33 Europe/Berlin] PHP Notice:  Undefined index: products_order_process in C:\xampp\htdocs\order_action.php on line 343
+[27-Apr-2021 14:22:33 Europe/Berlin] PHP Notice:  Undefined index: products_order_process in C:\xampp\htdocs\order_action.php on line 364
+[27-Apr-2021 14:22:49 Europe/Berlin] PHP Notice:  Undefined index: products_order_process in C:\xampp\htdocs\order_action.php on line 299
+[27-Apr-2021 14:22:49 Europe/Berlin] PHP Notice:  Undefined index: products_order_process in C:\xampp\htdocs\order_action.php on line 301
+[27-Apr-2021 14:22:49 Europe/Berlin] PHP Notice:  Undefined index: products_order_process in C:\xampp\htdocs\order_action.php on line 322
+[27-Apr-2021 14:22:49 Europe/Berlin] PHP Notice:  Undefined index: products_order_process in C:\xampp\htdocs\order_action.php on line 343
+[27-Apr-2021 14:22:49 Europe/Berlin] PHP Notice:  Undefined index: products_order_process in C:\xampp\htdocs\order_action.php on line 364
+[27-Apr-2021 14:24:07 Europe/Berlin] PHP Notice:  Undefined index: product_id in C:\xampp\htdocs\order_action.php on line 367
+[27-Apr-2021 14:24:18 Europe/Berlin] PHP Notice:  Undefined index: product_id in C:\xampp\htdocs\order_action.php on line 367
+[27-Apr-2021 14:24:49 Europe/Berlin] PHP Notice:  Undefined index: product_id in C:\xampp\htdocs\order_action.php on line 367
+[27-Apr-2021 14:27:09 Europe/Berlin] PHP Notice:  Undefined index: products_order_process in C:\xampp\htdocs\order_action.php on line 299
+[27-Apr-2021 14:27:09 Europe/Berlin] PHP Notice:  Undefined index: products_order_process in C:\xampp\htdocs\order_action.php on line 301
+[27-Apr-2021 14:27:09 Europe/Berlin] PHP Notice:  Undefined index: products_order_process in C:\xampp\htdocs\order_action.php on line 322
+[27-Apr-2021 14:27:09 Europe/Berlin] PHP Notice:  Undefined index: products_order_process in C:\xampp\htdocs\order_action.php on line 343
+[27-Apr-2021 14:27:09 Europe/Berlin] PHP Notice:  Undefined index: products_order_process in C:\xampp\htdocs\order_action.php on line 364
+[27-Apr-2021 14:31:22 Europe/Berlin] PHP Notice:  Undefined index: products_order_process in C:\xampp\htdocs\order_action.php on line 453
+[27-Apr-2021 14:31:22 Europe/Berlin] PHP Notice:  Undefined index: products_order_status in C:\xampp\htdocs\order_action.php on line 455
+[27-Apr-2021 14:32:35 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(ID, ProductQuantity) VALUES (?, ?)' at line 1 in C:\xampp\htdocs\order_action.php:423
+Stack trace:
+#0 C:\xampp\htdocs\order_action.php(423): PDO->prepare('\r\n\t\t\t\tUPDATE pr...')
+#1 {main}
+  thrown in C:\xampp\htdocs\order_action.php on line 423
+[27-Apr-2021 14:36:26 Europe/Berlin] PHP Notice:  Undefined index: product_id in C:\xampp\htdocs\order_action.php on line 408
+[27-Apr-2021 14:37:39 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(ID, ProductQuantity) VALUES (?, ?)' at line 1 in C:\xampp\htdocs\order_action.php:414
+Stack trace:
+#0 C:\xampp\htdocs\order_action.php(414): PDO->prepare('\r\n\t\t\tUPDATE pro...')
+#1 {main}
+  thrown in C:\xampp\htdocs\order_action.php on line 414
+[27-Apr-2021 14:37:45 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(ID, ProductQuantity) VALUES (?, ?)' at line 1 in C:\xampp\htdocs\order_action.php:414
+Stack trace:
+#0 C:\xampp\htdocs\order_action.php(414): PDO->prepare('\r\n\t\t\tUPDATE pro...')
+#1 {main}
+  thrown in C:\xampp\htdocs\order_action.php on line 414
+[27-Apr-2021 14:40:13 Europe/Berlin] PHP Notice:  Undefined index: product_id in C:\xampp\htdocs\order_action.php on line 408
+[27-Apr-2021 14:40:20 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(ID, ProductQuantity) VALUES (?, ?) WHERE products.ID = products_order_list.prod' at line 1 in C:\xampp\htdocs\order_action.php:414
+Stack trace:
+#0 C:\xampp\htdocs\order_action.php(414): PDO->prepare('\r\n\t\t\tUPDATE pro...')
+#1 {main}
+  thrown in C:\xampp\htdocs\order_action.php on line 414
+[27-Apr-2021 14:40:47 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(ID, ProductQuantity) VALUES (?, ?) WHERE products.ID = products_order_list.prod' at line 1 in C:\xampp\htdocs\order_action.php:414
+Stack trace:
+#0 C:\xampp\htdocs\order_action.php(414): PDO->prepare('\r\n\t\t\tUPDATE pro...')
+#1 {main}
+  thrown in C:\xampp\htdocs\order_action.php on line 414
+[27-Apr-2021 14:41:34 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(ID, ProductQuantity) VALUES (?, ?) WHERE products.ID = products_order_list.prod' at line 1 in C:\xampp\htdocs\order_action.php:414
+Stack trace:
+#0 C:\xampp\htdocs\order_action.php(414): PDO->prepare('\r\n\t\t\tUPDATE pro...')
+#1 {main}
+  thrown in C:\xampp\htdocs\order_action.php on line 414
+[27-Apr-2021 14:45:14 Europe/Berlin] PHP Notice:  Undefined index: product_id in C:\xampp\htdocs\order_action.php on line 408
+[27-Apr-2021 14:45:19 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(ID, ProductQuantity) VALUES (?, ?) 
+			WHERE products.ID = products_order_list' at line 2 in C:\xampp\htdocs\order_action.php:417
+Stack trace:
+#0 C:\xampp\htdocs\order_action.php(417): PDO->prepare('\r\n\t\t\tUPDATE pro...')
+#1 {main}
+  thrown in C:\xampp\htdocs\order_action.php on line 417
+[27-Apr-2021 14:47:03 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(products_order_id, product_id, quantity, price, tax) VALUES (?, ?, ?, ?, ?)' at line 2 in C:\xampp\htdocs\order_action.php:415
+Stack trace:
+#0 C:\xampp\htdocs\order_action.php(415): PDO->prepare('\r\n\t\t\tUPDATE pro...')
+#1 {main}
+  thrown in C:\xampp\htdocs\order_action.php on line 415
+[27-Apr-2021 15:05:45 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '
+			products.ID = products_order_list.product_id
+			AND products.ProductQuanti' at line 4 in C:\xampp\htdocs\order_action.php:419
+Stack trace:
+#0 C:\xampp\htdocs\order_action.php(419): PDO->prepare('\r\n\t\t\tUPDATE pro...')
+#1 {main}
+  thrown in C:\xampp\htdocs\order_action.php on line 419
+[27-Apr-2021 15:05:58 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '
+			products.ID = products_order_list.product_id,
+			products.ProductQuantity ' at line 4 in C:\xampp\htdocs\order_action.php:419
+Stack trace:
+#0 C:\xampp\htdocs\order_action.php(419): PDO->prepare('\r\n\t\t\tUPDATE pro...')
+#1 {main}
+  thrown in C:\xampp\htdocs\order_action.php on line 419
+[27-Apr-2021 15:06:36 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '14' for key 'PRIMARY' in C:\xampp\htdocs\order_action.php:422
+Stack trace:
+#0 C:\xampp\htdocs\order_action.php(422): PDOStatement->execute(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\order_action.php on line 422
+[27-Apr-2021 15:11:09 Europe/Berlin] PHP Notice:  Use of undefined constant ProductQuantity - assumed 'ProductQuantity' in C:\xampp\htdocs\order_action.php on line 422
+[27-Apr-2021 15:11:09 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number in C:\xampp\htdocs\order_action.php:438
+Stack trace:
+#0 C:\xampp\htdocs\order_action.php(438): PDOStatement->execute(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\order_action.php on line 438
+[27-Apr-2021 15:11:30 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 2031  in C:\xampp\htdocs\order_action.php:423
+Stack trace:
+#0 C:\xampp\htdocs\order_action.php(423): PDOStatement->execute(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\order_action.php on line 423
+[27-Apr-2021 15:11:50 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 2031  in C:\xampp\htdocs\order_action.php:423
+Stack trace:
+#0 C:\xampp\htdocs\order_action.php(423): PDOStatement->execute(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\order_action.php on line 423
+[27-Apr-2021 15:13:48 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number in C:\xampp\htdocs\order_action.php:438
+Stack trace:
+#0 C:\xampp\htdocs\order_action.php(438): PDOStatement->execute(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\order_action.php on line 438
+[27-Apr-2021 15:17:56 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '14' for key 'PRIMARY' in C:\xampp\htdocs\order_action.php:423
+Stack trace:
+#0 C:\xampp\htdocs\order_action.php(423): PDOStatement->execute(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\order_action.php on line 423
+[27-Apr-2021 15:18:11 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '14' for key 'PRIMARY' in C:\xampp\htdocs\order_action.php:423
+Stack trace:
+#0 C:\xampp\htdocs\order_action.php(423): PDOStatement->execute(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\order_action.php on line 423
+[27-Apr-2021 15:23:24 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\order_action.php on line 421
+[27-Apr-2021 15:23:24 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\order_action.php on line 421
+[27-Apr-2021 15:28:06 Europe/Berlin] PHP Notice:  Undefined variable: count in C:\xampp\htdocs\order_action.php on line 407
+[27-Apr-2021 15:28:06 Europe/Berlin] PHP Notice:  Undefined index:  in C:\xampp\htdocs\order_action.php on line 407
+[27-Apr-2021 15:28:06 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE products_order_id = ?
+			AND products.ID = products_order_list.product_id' at line 3 in C:\xampp\htdocs\order_action.php:418
+Stack trace:
+#0 C:\xampp\htdocs\order_action.php(418): PDO->prepare('\r\n\t\t\tUPDATE pro...')
+#1 {main}
+  thrown in C:\xampp\htdocs\order_action.php on line 418
+[27-Apr-2021 15:32:32 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\order_action.php on line 423
+[27-Apr-2021 15:32:32 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\order_action.php on line 423
+[27-Apr-2021 16:05:54 Europe/Berlin] PHP Notice:  Undefined index: user_access in C:\xampp\htdocs\index.php on line 24

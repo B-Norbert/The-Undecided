@@ -34,7 +34,9 @@ if(isset($_REQUEST['btn_login']))	//button name is "btn_login"
 				{
 					if(password_verify($password, $row["password"])) //check condition user taypable "password" are match from database "password" using password_verify() after continue
 					{
-						$_SESSION["user_login"] = $row["id"];	//session name is "user_login"
+						$_SESSION["user_login"] = $row["id"];	//session name is "user_login" it passes the users id of the account 
+						$_SESSION["username"] = $row["username"]; //session name is "username" it passes the users 
+						$_SESSION["user_access"] = $row["user_level"]; //session name is "user_access" it passes the user level of the account
 						$loginMsg = "Successfully Login...";		//user login success message
 						header("refresh:2; index.php");			//refresh 2 second after redirect to "welcome.php" page
 					}
@@ -83,7 +85,7 @@ if(isset($_REQUEST['btn_login']))	//button name is "btn_login"
 				<form method="post" class="form">
 					<input type="text" name="txt_username" class="form-control" placeholder="enter username" />
 					<input type="password" name="txt_password" class="form-control" placeholder="enter password" />
-					<input type="submit" name="btn_login" class="btn btn-success" value="Login">
+					<input type="submit" name="btn_login" class="btn" value="Login">
 					<?php
 		if(isset($errorMsg))
 		{
